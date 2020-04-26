@@ -1,0 +1,36 @@
+{
+  "name": "design-patterns-js",
+  "version": "0.0.1",
+  "description": "NPM package for javascript design patterns",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:main",
+    "test:main": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunwei/design-patterns-js.git"
+  },
+  "keywords": [
+    "design-patterns",
+    "design-patterns-js"
+  ],
+  "author": "sunwei <me@sunwei.xyz> (https://www.sunzhongmou.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sunwei/design-patterns-js/issues"
+  },
+  "homepage": "https://github.com/sunwei/design-patterns-js#readme",
+  "dependencies": {
+    "lodash": "4.17.14"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^3.7.1",
+    "esm": "^3.2.25"
+  }
+}
