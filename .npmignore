@@ -1,3 +1,5 @@
 .idea
 test
 .gitignore
+env
+shell.sh
